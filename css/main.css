@@ -1,106 +1,64 @@
 @media screen and (min-width: 270px) {
-
-header {
-    background-color: #F2F2F2;
-    height: 200px;
-}
-
-.header-logo {
-    padding: 20px;
-}
-
-.menu {
-    display: inline-flex;
-    float: none;
-    width: 100%;
-}
-
-.menu li {
-     display: inline-flex;
-    float: none;
-    width: 100%;
-}
-
-.menu li,
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.menu img {
-    width: 80px;
-    vertical-align: middle;
-}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- @media screen and (min-width: 600px) {
     header {
-    background-color: #F2F2F2;
-    height: 200px;
+        background-color: #F2F2F2;
+        height: 200px;
+    }
+    .header-logo {
+        padding: 20px;
+    }
+    .menu {
+        display: inline-flex;
+        float: none;
+        width: 100%;
+    }
+    .menu li {
+        display: inline-flex;
+        float: none;
+        width: 100%;
+    }
+    .menu li,
+    a {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .menu img {
+        width: 80px;
+        vertical-align: middle;
+    }
 }
 
-.header-logo {
-    padding: 20px;
+@media screen and (min-width: 600px) {
+    header {
+        background-color: #F2F2F2;
+        height: 200px;
+    }
+    .header-logo {
+        padding: 20px;
+    }
+    .menu {
+        position: fixed;
+        top: 42px;
+        text-align: center;
+        left: 144px;
+    }
+    .menu li {
+        width: 230px;
+        border-bottom: none;
+        font-size: 30px;
+        font-family: 'Trebuchet MS';
+        display: inline-block;
+    }
+    .menu li,
+    a {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .menu img {
+        width: 80px;
+        vertical-align: middle;
+    }
 }
-
-.menu {
-    position: fixed;
-    top: 30px;
-    text-align: center;
-    left: 70px;
-}
-
-.menu li {
-    width: 230px;
-    border-bottom: none;
-    font-size: 30px;
-    font-family: 'Trebuchet MS';
-    display: inline-block;
-}
-
-.menu li,
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.menu img {
-    width: 80px;
-    vertical-align: middle;
-}
-
- }
-
