@@ -1,0 +1,46 @@
+ body {}
+ 
+ .nav ul {
+     list-style: none;
+     text-align: center;
+     padding: 0;
+     margin: 0;
+ }
+ 
+ .nav li {
+     line-height: 40px;
+     height: 40px;
+ }
+ 
+ .nav a {
+     text-decoration: none;
+     color: #000000;
+     display: block;
+ }
+ 
+ 
+ @media screen and (min-width: 600px) {
+     .header-logo {
+         height: 164px;
+         background-color: #F2F2F2;
+         border-width: 1px;
+         border-style: solid;
+         border-color: #F2F2F2;
+     }
+     .header-logo img {
+         padding: 20px;
+     }
+     .nav {
+         position: fixed;
+         top: 60px;
+         left: 250px;
+     }
+     .nav li {
+         width: 230px;
+         border-bottom: none;
+         font-size: 30px;
+         font-family: 'Trebuchet MS';
+         display: inline-block;
+     }
+     .nav a:hover {}
+ }
