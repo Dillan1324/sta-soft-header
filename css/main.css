@@ -30,7 +30,7 @@
 }
 
 @media screen and (min-width: 600px) {
-    header {
+    .header {
         background-color: #F2F2F2;
         height: 200px;
     }
@@ -42,6 +42,7 @@
         top: 50px;
         text-align: center;
         left: 144px;
+
     }
     .menu li {
         width: 230px;
@@ -49,10 +50,12 @@
         font-size: 30px;
         font-family: 'Trebuchet MS';
         display: inline-block;
+        color: #000000;
     }
     .menu li,
     a {
         text-decoration: none;
+        color: #000000;
     }
     a:hover {
         text-decoration: underline;
