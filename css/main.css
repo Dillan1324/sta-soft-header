@@ -30,9 +30,9 @@
 }
 
 @media screen and (min-width: 600px) {
-    .header {
-        background-color: #F2F2F2;
-        height: 200px;
+    header {
+    background-color: #F2F2F2;
+    height: 152px;
     }
     .header-logo {
         padding: 20px;
